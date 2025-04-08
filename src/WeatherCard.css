@@ -1,0 +1,56 @@
+/* WeatherCard.css */
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 350px;
+}
+
+.container h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #333;
+}
+
+.container h4 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #777;
+}
+
+.container img {
+  width: 100px;
+  height: 100px;
+}
+
+.container p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #555;
+}
+
+strong {
+  font-size: 22px;
+  color: #222;
+}
+
+.loading-message,
+.error-message {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
